@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slushie Maker Hire</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <div class="logo">[Your Company Logo]</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Cool Down with Our Slushie Maker Rentals!</h1>
+            <a href="#contact" class="cta-button">Book Now</a>
+        </div>
+        <p>Welcome to Slush & Co! We specialize in slushie maker rentals for parties, events, and gatherings.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about bringing fun and flavor to your celebrations.</p>
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li>Quality machines</li>
+            <li>Excellent customer service</li>
+            <li>Customizable flavors</li>
+        </ul>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a variety of slushie maker rentals, including:</p>
+        <ul>
+            <li>Classic Slushie Machines</li>
+            <li>Themed Party Packages</li>
+            <li>A wide range of delicious flavors</li>
+        </ul>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Our rental packages start at just [Price]!</p>
+        <h3>Rental Packages</h3>
+        <ul>
+            <li>Basic Package: Description & Price</li>
+            <li>Premium Package: Description & Price</li>
+            <li>Add-ons: Extra flavors, cups, etc.</li>
+        </ul>
+    </section>
+
+    <section id="faqs">
+        <h2>FAQs</h2>
+        <h3>How long is the rental period?</h3>
+        <p>Typically, rentals are for 24 hours, but we can accommodate longer periods upon request.</p>
+        <h3>Do you provide supplies?</h3>
+        <p>Yes! We provide everything you need, including cups, straws, and syrup.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Phone: [Your Phone Number]</p>
+        <p>Email: [Your Email Address]</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; [Year] [Your Company Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
